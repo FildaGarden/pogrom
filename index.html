@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Is Pogrom Playing DayZ?</title>
+
+        <!-- Font Awesome icons -->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Top Bar-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href=".">Is Pogrom Playing DayZ At The Moment?</a>
+                </button>
+            </div>
+        </nav>
+        <!-- Main Container-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-5" src="assets/img/Untitled.svg" alt="..." />
+                <h1 id="generalStatus" onclick="fetchData(url)" class="masthead-heading text-uppercase mb-0">Press Me To Check</h1>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p id="underStatus"class="masthead-subheading font-weight-light mb-0">The answer will most likely be |YES| but just in case...</p>
+                <h5 id="spaceWaste" style="display: none;"></h5>
+                <p id="lastSeen" style="display:none"></p>
+                <p id="playedOverall" style="display:none"></p>
+                <p id="playedTwoWeeks" style="display:none"></p>
+                <p id="gameServer" style="display:none"></p>
+                <p id="0" style="display:none"></p>
+                <h5 id="spaceWaste"></h5>
+                <h5 id="spaceWaste"></h5>
+            </div>
+        </header>   
+        
+
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Contact</h4>
+                        <img id="ig" onclick="openIG()" src="https://img.icons8.com/ios/50/000000/instagram-new--v3.png"/>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Got a problem?</h4>
+                        <img src="https://img.icons8.com/ios/50/000000/circled-k.png"/>
+                        <img src="https://img.icons8.com/ios/50/000000/circled-y.png"/>
+                        <img src="https://img.icons8.com/ios/50/000000/circled-s.png"/>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About</h4>
+                        <p class="lead mb-0">
+                            Did Pogrom just passed on a party and you want to know if DayZ is involved?
+                            <a href=".">Check it yourself</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright -->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; IsPogromPlayingDayZAtTheMoment 2022</small></div>
+        </div>
+        <script src="js/fetch.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
