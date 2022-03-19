@@ -1,7 +1,7 @@
 const steamID = '76561198114032179';
 const steamApi = '0AAF11FDF47FF0B61FB3FD1804E77602';
-const url = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${steamApi}&steamids=${steamID}`;
-const url2 = `https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=${steamApi}&steamid=${steamID}`;
+const url = `https://cors-anywhere.herokuapp.com/https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${steamApi}&steamids=${steamID}`;
+const url2 = `https://cors-anywhere.herokuapp.com/https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=${steamApi}&steamid=${steamID}`;
 
 
 const generalStatusElement = document.getElementById("generalStatus");
